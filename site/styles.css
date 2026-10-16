@@ -47,6 +47,8 @@ a:focus-visible,button:focus-visible,.button:focus-visible,nav a:focus-visible,.
   .header{border-color:var(--line)}
   a{color:var(--moss)}
   .card,.scene,.note,.contents{background:var(--sage);border-color:var(--line);color:var(--ink)}
+  .card:nth-child(2),.card:nth-child(3){background:var(--sage)}
+  .availability{color:var(--moss)}
   .footer{border-color:var(--line);color:var(--ink)}
   .skip{background:#2A3328;color:var(--ink)}
 }
