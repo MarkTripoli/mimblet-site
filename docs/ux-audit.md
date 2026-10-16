@@ -24,3 +24,6 @@
 1. (P1) Add "Need something else?" escalation copy + mailto/issues link on Support footer.
 2. (P2) Clarify release status messaging on Home.
 3. (P3) Verify skip link focus behavior across multi-device checks.
+
+## Changelog (copy)
+- 2026-10-16: Simplified store-release availability line; removed awkward skip-link verification comment from support page.
