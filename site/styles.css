@@ -37,3 +37,5 @@ a:focus-visible,button:focus-visible,.button:focus-visible,nav a:focus-visible,.
   .skip:focus-visible{outline:3px solid ButtonText;outline-offset:2px}
   .button:focus-visible{outline:3px solid ButtonText;outline-offset:2px}
 }
+
+.footer p a{min-height:44px;display:inline-flex;align-items:center}
