@@ -11,3 +11,9 @@ nav a:hover{text-decoration:underline}
 footer nav a:hover{text-decoration:underline}
 .strip{position:relative}
 @media (prefers-reduced-motion: reduce){*{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.001ms !important;scroll-behavior:auto !important}}
+
+/* tap-target minimums */
+.brand{min-height:44px;display:inline-flex;align-items:center}
+.footer nav a{min-width:44px;justify-content:center}
+nav a,.footer nav a,.contents a,.actions a,.section-head a,.document a{min-height:44px;display:inline-flex;align-items:center}
+.button{min-height:44px;display:inline-flex;align-items:center}
