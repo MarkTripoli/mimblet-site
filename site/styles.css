@@ -1,3 +1,4 @@
+html{scroll-behavior:smooth}
 @font-face{font-family:Fraunces;src:url('assets/fonts/Fraunces_600SemiBold.ttf') format('truetype');font-weight:600;font-display:swap}
 @font-face{font-family:'DM Sans';src:url('assets/fonts/DMSans_400Regular.ttf') format('truetype');font-weight:400;font-display:swap}
 :root{color-scheme:light dark;--paper:#FAF7F0;--ink:#31382E;--moss:#475D45;--sage:#DDE6D5;--butter:#F2DFAC;--line:#D7D9D0}
