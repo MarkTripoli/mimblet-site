@@ -23,3 +23,17 @@ nav a,.footer nav a,.contents a,.actions a,.section-head a,.document a{min-heigh
   .scene,.card,.note,.contents{background:Canvas;border:1px solid CanvasText}
   nav a,.footer nav a{color:LinkText}
 }
+
+/* accessibility: consistent focus rings */
+a:focus-visible,button:focus-visible,.button:focus-visible,nav a:focus-visible,.contents a:focus-visible,.footer nav a:focus-visible,.skip:focus-visible{outline:3px solid var(--moss);outline-offset:2px;border-radius:4px}
+.skip:focus-visible{top:12px}
+
+@media (prefers-reduced-motion: reduce){
+  *{animation:none !important;transition:none !important;scroll-behavior:auto !important}
+}
+
+@media (forced-colors: active){
+  .skip{background:Canvas;color:ButtonText;border:2px solid ButtonText}
+  .skip:focus-visible{outline:3px solid ButtonText;outline-offset:2px}
+  .button:focus-visible{outline:3px solid ButtonText;outline-offset:2px}
+}
